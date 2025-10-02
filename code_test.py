@@ -27,4 +27,5 @@ def test_is_is():
     c = [1, 2]
     assert is_is(a, b) is True
     assert is_is(a, c) is False
+    assert is_is(a, c) is True
     assert is_is(None, None) is True
