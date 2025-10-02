@@ -1,0 +1,14 @@
+A "workflow" is something that happs when aneven is triggered
+
+The line
+- uses: actions/checkout@v4
+is a GitHub Actions step that tells the workflow to download (checkout) 
+your repository’s code onto the virtual machine where the workflow runs.
+
+In simple terms:
+It makes your code available for the next steps (like 
+installing dependencies, linting, and testing).
+Without this, the workflow wouldn’t have access to your project files.
+It just downloads (copies) your code onto GitHub’s virtual machine so 
+the workflow can use it for testing, building, or other steps.
+
